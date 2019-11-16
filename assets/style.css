@@ -1,16 +1,43 @@
-body{
-    padding: 0 20%;
-    margin: auto;
-    position: relative;
-    background-image: /Users/JoshFaison/Homework1/Assets/images/hotel-wallpaper.png;
+body {
+  padding: 0 20%;
+  margin: auto;
+  position: relative;
+  background-image: url(../images/hotel-wallpaper.png);
 }
 
-.dflex{
+
+
+.content{
+    flex: auto;
+    padding: 10% 20%;
+}
+
+.dflex {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.nav {
+  background-color: black;
+}
+
+.d-flex {
     display: flex;
-
 }
 
+.fd-column {
+    flex-direction: column;
+}
 
-.nav{
-    background-color: black;
+.fd-row {
+    flex-direction: row;
+}
+
+.img{
+    size: 200px;
+}
+
+p{
+    flex: row;
 }
