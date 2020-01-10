@@ -14,56 +14,36 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/style.css" />
 
     <title>Contact</title>
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Josh Faison</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class ="nav-link" href="index.html">About Me</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="Contact.html"
-                  >Contact <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Portfolio.html">Portfolio</a>
-              </li>
-            </nav>
-            
+      <nav>
+        <div class="nav-container">
+            <h2 class="header-name">Josh Faison</h2>
+            <div class="navlinks d-flex align-center">
+              <a href="index.html">About Me</a>
+              <a class="fake-border" href="contact.html">Contact</a>
+              <a href="portfolio.html">Portfolio</a>
+            </div>
           </div>
-        </nav>
-     <div class="content">
+        </div>
+      </nav>
+      <div class="content">
         <div class="content-container d-flex fd-column border-black">
           <h2>Contact Me</h2>
 
           <label>Name</label>
-          <input type="text">
+          <input type="text" />
           <label for="Email">Email</label>
-          <input type="text">
+          <input type="text" />
           <label for="Message">Message</label>
           <textarea name="text" id="" cols="30" rows="10"></textarea>
           <button>Submit</button>
         </div>
-      
-    </div>
-
+      </div>
+    </body>
     <footer>
       <div class="footer-container">
         Copyright &copy; 2019
